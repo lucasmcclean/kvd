@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "kvd",
+    "kvd-delta"
+]
+
+resolver = "3"
