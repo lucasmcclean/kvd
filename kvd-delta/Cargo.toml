@@ -3,11 +3,12 @@ name = "kvd-delta"
 version = "0.1.0"
 edition = "2024"
 authors = ["Lucas McClean <lucas@mcclean.dev>"]
-description = "Core library for config diffing and key-value comparison"
+description = "Core library for key-value diffing and merging"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/lucasmcclean/kvd"
 homepage = "https://github.com/lucasmcclean/kvd"
-keywords = ["config", "diff", "key-value", "delta"]
-categories = ["command-line-utilities", "development-tools"]
+keywords = ["diff", "key-value", "delta", "merge"]
+categories = ["development-tools"]
 
 [dependencies]
+indexmap = "2.13.0"
