@@ -1,0 +1,13 @@
+[package]
+name = "kvd-core"
+version = "0.1.0"
+edition = "2024"
+authors = ["Lucas McClean <lucas@mcclean.dev>"]
+description = "Core library for kvd: parsing, normalizing, and diffing structured key-value data."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/lucasmcclean/kvd"
+homepage = "https://github.com/lucasmcclean/kvd"
+keywords = ["diff", "serde", "json", "yaml", "toml"]
+categories = ["development-tools", "command-line-utilities", "data-structures"]
+
+[dependencies]

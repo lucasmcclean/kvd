@@ -3,12 +3,12 @@ name = "kvd"
 version = "0.1.0"
 edition = "2024"
 authors = ["Lucas McClean <lucas@mcclean.dev>"]
-description = "CLI tool for config diffing using kvd-delta library"
+description = "CLI tool for semantic diffing of structured config files."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/lucasmcclean/kvd"
 homepage = "https://github.com/lucasmcclean/kvd"
-keywords = ["config", "diff", "cli", "tool"]
-categories = ["command-line-utilities"]
+keywords = ["diff", "cli", "json", "yaml", "toml"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
-kvd-delta = { version="0.1.0", path = "../kvd-delta" }
+kvd-core = { version = "0.1.0", path = "../kvd-core" }

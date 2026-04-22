@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "kvd",
+    "kvd-core",
     "kvd-delta"
 ]
 
